@@ -153,19 +153,3 @@ class DoublyLinkedList:
         while temp is not None:
             print(temp.value)
             temp = temp.next
-
-
-my_doubly_linked_list = DoublyLinkedList(1)
-my_doubly_linked_list.append(2)
-my_doubly_linked_list.append(3)
-
-my_doubly_linked_list.print_list()
-
-print()
-
-print(my_doubly_linked_list.remove(1).value)
-print(my_doubly_linked_list.remove(0).value)
-
-print()
-
-my_doubly_linked_list.print_list()
